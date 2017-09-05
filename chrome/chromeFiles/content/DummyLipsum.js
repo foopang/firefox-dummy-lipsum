@@ -20,37 +20,37 @@
 
 var DummyLipsum = {
 	initialized: false,
-	
+
 	ED_TYPE_TINYMCE:  1,
 	ED_TYPE_XINHA:    2,
 	ED_TYPE_NICEDIT:  3,
 	ED_TYPE_EPOZ:     4,
 	ED_TYPE_KUPU:     5,
-	
+
 	_orig_text: "",
 	_def_prefs: Array(),
 //	_dl_prefs: Array(),
-	
+
 	_baseURL: "http://www.lipsum.com/feed/xml",
 	_url_num: "amount",
 	_url_type: "what",
 	_url_start: "start",
 	_url_punctuation: "punctuation",
-	
+
 	types_values: new Array("paras", "words", "bytes", "lists"),
 	start_value_yes: "yes",
 	start_value_no: "no",
 	punctuation_value_yes: "yes",
 	punctuation_value_no: "no",
-	
+
 	fetching_delay: 400,
 	fetching_iter: 0,
 	inputs_global: new Array(1),
 
-	
+
 	init: function() {
 		window.removeEventListener("load", DummyLipsum.init, true);
-		
+
 		// Default Values
 		DummyLipsum._def_prefs["num_items"] = 3;
 		DummyLipsum._def_prefs["items_type"] = 0;
@@ -88,31 +88,31 @@ var DummyLipsum = {
 		DummyLipsum._def_prefs["auto_size_first_ta"] = true;
 		DummyLipsum._def_prefs["replace_chars_ta"] = "";
 		DummyLipsum._def_prefs["replace_ratio_ta"] = 0;
-		
-//		DummyLipsum._dl_prefs = DummyLipsum.loadPrefs();
-		
+
+		DummyLipsum._dl_prefs = DummyLipsum.loadPrefs();
+
 		DummyLipsum.initialized = true;
-		
+
 		DummyLipsum._dlSetToggleMenuItemEvent();
 	},
-	
-	
+
+
 	onMenuItemCommand: function() {
 		window.open("chrome://dummylipsum/content/newwin.xul", "Dummy Lipsum Generator", "chrome,centerscreen,resizable");
 	},
-	
-	
+
+
 	onToolbarButtonCommand: function() {
 		window.open("chrome://dummylipsum/content/newwin.xul", "Dummy Lipsum Generator", "chrome,centerscreen,resizable");
 	},
-	
-	
+
+
 	addSpecialChars: function(body, pref_suffix) {
 		var _dl_prefs = DummyLipsum.loadPrefs();
 		var rep_chars = _dl_prefs["replace_chars" + pref_suffix].split(",");
 		var rep_chars_len = rep_chars.length;
 		var rep_ratio = _dl_prefs["replace_ratio" + pref_suffix];
-		
+
 		if ((rep_ratio > 0) && (_dl_prefs["replace_chars" + pref_suffix].length > 0)) {
 			var len = body.length;
 			var i;
@@ -124,21 +124,21 @@ var DummyLipsum = {
 				}
 			}
 		}
-		
+
 		return body;
 	},
-	
-	
+
+
 	randomInRange: function(min, max) {
 		return Math.floor(Math.random() * (max - min + 1)) + min;
 	},
-	
-	
+
+
 	setCharAt: function(str, index, ch) {
 		return str.substr(0, index) + ch + str.substr(index + 1);
 	},
-	
-	
+
+
 	isTag: function(str, index, old_status) {
 		if (str[index] == "<") {
 			return true;
@@ -148,8 +148,8 @@ var DummyLipsum = {
 		}
 		return false;
 	},
-	
-	
+
+
 	isRepChar: function(c, ratio) {
 		if ((c >= "a") && (c <= "z")) {
 			return true;
@@ -159,13 +159,13 @@ var DummyLipsum = {
 		}
 		return false;
 	},
-	
-	
+
+
 	getFetchingLabel: function() {
 		return document.getElementById("bundle_dummylipsum").getString("dl_fetching");
 	},
-	
-	
+
+
 	rebuidTags: function(str, what) {
 		if (what == "lists") {
 			str = str.replace(/\r/g, "");
@@ -183,15 +183,15 @@ var DummyLipsum = {
 		}
 		return str;
 	},
-	
-	
+
+
 	getWhatFromURL: function(url) {
 		var p1 = url.indexOf("what=", 0);
 		var p2 = url.indexOf("&", p1 + 1);
 		return url.substring(p1 + 5, p2);
 	},
-	
-	
+
+
 	loadPrefs: function() {
 		var arr = Array();
 		try {
@@ -245,11 +245,11 @@ var DummyLipsum = {
 				arr["autocopy"] = DummyLipsum._def_prefs["autocopy"];
 			}
 
-			if (nsPreferences.mPrefService.prefHasUserValue("dummylipsum.replace_chars")) {
-				arr["replace_chars"] = nsPreferences.getLocalizedUnicharPref("dummylipsum.replace_chars");
+			if (prefs.prefHasUserValue("dummylipsum.replace_chars")) {
+				arr["replace_chars"] = prefs.getCharPref("dummylipsum.replace_chars");
 			}
 			else {
-				nsPreferences.setUnicharPref("dummylipsum.replace_chars", DummyLipsum._def_prefs["replace_chars"]);
+				prefs.setCharPref("dummylipsum.replace_chars", DummyLipsum._def_prefs["replace_chars"]);
 				arr["replace_chars"] = DummyLipsum._def_prefs["replace_chars"];
 			}
 
@@ -302,11 +302,11 @@ var DummyLipsum = {
 				arr["autocopy_te"] = DummyLipsum._def_prefs["autocopy_te"];
 			}
 
-			if (nsPreferences.mPrefService.prefHasUserValue("dummylipsum.replace_chars_te")) {
-				arr["replace_chars_te"] = nsPreferences.getLocalizedUnicharPref("dummylipsum.replace_chars_te");
+			if (prefs.prefHasUserValue("dummylipsum.replace_chars_te")) {
+				arr["replace_chars_te"] = prefs.getCharPref("dummylipsum.replace_chars_te");
 			}
 			else {
-				nsPreferences.setUnicharPref("dummylipsum.replace_chars_te", DummyLipsum._def_prefs["replace_chars_te"]);
+				prefs.setCharPref("dummylipsum.replace_chars_te", DummyLipsum._def_prefs["replace_chars_te"]);
 				arr["replace_chars_te"] = DummyLipsum._def_prefs["replace_chars_te"];
 			}
 
@@ -375,11 +375,11 @@ var DummyLipsum = {
 				arr["auto_size_first_tf"] = DummyLipsum._def_prefs["auto_size_first_tf"];
 			}
 
-			if (nsPreferences.mPrefService.prefHasUserValue("dummylipsum.replace_chars_tf")) {
-				arr["replace_chars_tf"] = nsPreferences.getLocalizedUnicharPref("dummylipsum.replace_chars_tf");
+			if (prefs.prefHasUserValue("dummylipsum.replace_chars_tf")) {
+				arr["replace_chars_tf"] = prefs.getCharPref("dummylipsum.replace_chars_tf");
 			}
 			else {
-				nsPreferences.setUnicharPref("dummylipsum.replace_chars_tf", DummyLipsum._def_prefs["replace_chars_tf"]);
+				prefs.setCharPref("dummylipsum.replace_chars_tf", DummyLipsum._def_prefs["replace_chars_tf"]);
 				arr["replace_chars_tf"] = DummyLipsum._def_prefs["replace_chars_tf"];
 			}
 
@@ -448,11 +448,11 @@ var DummyLipsum = {
 				arr["auto_size_first_ta"] = DummyLipsum._def_prefs["auto_size_first_ta"];
 			}
 
-			if (nsPreferences.mPrefService.prefHasUserValue("dummylipsum.replace_chars_ta")) {
-				arr["replace_chars_ta"] = nsPreferences.getLocalizedUnicharPref("dummylipsum.replace_chars_ta");
+			if (prefs.prefHasUserValue("dummylipsum.replace_chars_ta")) {
+				arr["replace_chars_ta"] = prefs.getCharPref("dummylipsum.replace_chars_ta");
 			}
 			else {
-				nsPreferences.setUnicharPref("dummylipsum.replace_chars_ta", DummyLipsum._def_prefs["replace_chars_ta"]);
+				prefs.setCharPref("dummylipsum.replace_chars_ta", DummyLipsum._def_prefs["replace_chars_ta"]);
 				arr["replace_chars_ta"] = DummyLipsum._def_prefs["replace_chars_ta"];
 			}
 
@@ -463,7 +463,7 @@ var DummyLipsum = {
 				prefs.setIntPref("dummylipsum.replace_ratio_ta", DummyLipsum._def_prefs["replace_ratio_ta"]);
 				arr["replace_ratio_ta"] = DummyLipsum._def_prefs["replace_ratio_ta"];
 			}
-			
+
 			return arr;
 		}
 		catch(e) {
@@ -471,13 +471,13 @@ var DummyLipsum = {
 			return arr;
 		}
 	},
-	
-	
+
+
 	showPrefsValues: function(doc) {
 		if (!DummyLipsum.initialized) {
 			DummyLipsum.init();
 		}
-		
+
 		var _dl_prefs = DummyLipsum.loadPrefs();
 		var elem;
 		// Default Values
@@ -514,7 +514,7 @@ var DummyLipsum = {
 			else
 				elem.checked = false;
 		}
-		
+
 		elem = doc.getElementById("rep_chars");
 		if (elem != null) {
 			// Only exists on preferences window
@@ -526,7 +526,7 @@ var DummyLipsum = {
 			// Only exists on preferences window
 			elem.value = _dl_prefs["replace_ratio"];
 		}
-		
+
 		// Text Editor default values
 		elem = doc.getElementById("num_items_te");
 		if (elem != null) {
@@ -555,7 +555,7 @@ var DummyLipsum = {
 			else
 				elem.checked = false;
 		}
-		
+
 		elem = doc.getElementById("rep_chars_te");
 		if (elem != null) {
 			// Only exists on preferences window
@@ -567,7 +567,7 @@ var DummyLipsum = {
 			// Only exists on preferences window
 			elem.value = _dl_prefs["replace_ratio_te"];
 		}
-		
+
 		// Text Field default values
 		elem = doc.getElementById("num_items_tf");
 		if (elem != null) {
@@ -608,7 +608,7 @@ var DummyLipsum = {
 			else
 				elem.checked = false;
 		}
-		
+
 		elem = doc.getElementById("rep_chars_tf");
 		if (elem != null) {
 			// Only exists on preferences window
@@ -620,7 +620,7 @@ var DummyLipsum = {
 			// Only exists on preferences window
 			elem.value = _dl_prefs["replace_ratio_tf"];
 		}
-		
+
 		// Text Area default values
 		elem = doc.getElementById("num_items_ta");
 		if (elem != null) {
@@ -661,7 +661,7 @@ var DummyLipsum = {
 			else
 				elem.checked = false;
 		}
-		
+
 		elem = doc.getElementById("rep_chars_ta");
 		if (elem != null) {
 			// Only exists on preferences window
@@ -674,14 +674,14 @@ var DummyLipsum = {
 			elem.value = _dl_prefs["replace_ratio_ta"];
 		}
 	},
-	
-	
+
+
 	dlSetFocus: function(elem_id) {
 		var elem = document.getElementById(elem_id);
 		elem.focus();
 	},
-	
-	
+
+
 	replaceAll: function(streng, soeg, erstat) {
 		var st = streng;
 		if (soeg.length == 0)
@@ -693,8 +693,8 @@ var DummyLipsum = {
 		}
 		return st;
 	},
-	
-	
+
+
 	updateTags: function() {
 		var body = '';
 		var elem = document.getElementById('show_tags');
@@ -706,8 +706,8 @@ var DummyLipsum = {
 		}
 		DummyLipsum.setText(body);
 	},
-	
-	
+
+
 	generateDummy: function() {
 		try {
 			var _dl_prefs = DummyLipsum.loadPrefs();
@@ -736,7 +736,7 @@ var DummyLipsum = {
 			var url = DummyLipsum._baseURL + "?" + num + "&" + type + "&" + start + "&" + punctuation;
 
 			DummyLipsum.windowStartLoading();
-			
+
 			_request = Components.classes["@mozilla.org/xmlextras/xmlhttprequest;1"].createInstance(Components.interfaces.nsIXMLHttpRequest);
 			_request.open("GET", url, true);
 			_request.overrideMimeType("text/xml");
@@ -754,10 +754,10 @@ var DummyLipsum = {
 	_onGenerateLoad: function(aResponse, aStatus) {
 		try {
 			var _dl_prefs = DummyLipsum.loadPrefs();
-			
+
 			var button;
 			var body = "";
-			
+
 			DummyLipsum.windowStopLoading();
 			if (!aResponse || aStatus > 200) {
 				var error = "Error";
@@ -781,9 +781,9 @@ var DummyLipsum = {
 				DummyLipsum.setText("Error");
 				return;
 			}
-			
+
 			body = DummyLipsum.rebuidTags(body, DummyLipsum.getWhatFromURL(aResponse.baseURI));
-			
+
 			body = DummyLipsum.addSpecialChars(body, "");
 			DummyLipsum._orig_text = body;
 
@@ -880,8 +880,8 @@ var DummyLipsum = {
 			text = text.replace("\n", "");
 		return text;
 	},
-	
-	
+
+
 	saveOptions: function() {
 		try {
 			var _dl_prefs = DummyLipsum.loadPrefs();
@@ -916,9 +916,9 @@ var DummyLipsum = {
 			elem = document.getElementById("autocopy");
 			val = (elem.checked) ? true : false;
 			prefs.setBoolPref("dummylipsum.autocopy", val);
-		
+
 			elem = document.getElementById("rep_chars");
-			nsPreferences.setUnicharPref("dummylipsum.replace_chars", elem.value);
+			prefs.setCharPref("dummylipsum.replace_chars", elem.value);
 
 			elem = document.getElementById('rep_ratio');
 			num = parseInt(elem.value);
@@ -934,7 +934,7 @@ var DummyLipsum = {
 				}
 			}
 			prefs.setIntPref("dummylipsum.replace_ratio", num);
-		
+
 			// Text Editor default values
 			elem = document.getElementById('num_items_te');
 			num = parseInt(elem.value);
@@ -957,9 +957,9 @@ var DummyLipsum = {
 			elem = document.getElementById("autocopy_te");
 			val = (elem.checked) ? true : false;
 			prefs.setBoolPref("dummylipsum.autocopy_te", val);
-		
+
 			elem = document.getElementById("rep_chars_te");
-			nsPreferences.setUnicharPref("dummylipsum.replace_chars_te", elem.value);
+            prefs.setCharPref("dummylipsum.replace_chars_te", elem.value);
 
 			elem = document.getElementById('rep_ratio_te');
 			num = parseInt(elem.value);
@@ -1006,9 +1006,9 @@ var DummyLipsum = {
 			elem = document.getElementById("auto_size_first_tf");
 			val = (elem.checked) ? true : false;
 			prefs.setBoolPref("dummylipsum.auto_size_first_tf", val);
-		
+
 			elem = document.getElementById("rep_chars_tf");
-			nsPreferences.setUnicharPref("dummylipsum.replace_chars_tf", elem.value);
+            prefs.setCharPref("dummylipsum.replace_chars_tf", elem.value);
 
 			elem = document.getElementById('rep_ratio_tf');
 			num = parseInt(elem.value);
@@ -1055,9 +1055,9 @@ var DummyLipsum = {
 			elem = document.getElementById("auto_size_first_ta");
 			val = (elem.checked) ? true : false;
 			prefs.setBoolPref("dummylipsum.auto_size_first_ta", val);
-		
+
 			elem = document.getElementById("rep_chars_ta");
-			nsPreferences.setUnicharPref("dummylipsum.replace_chars_ta", elem.value);
+            prefs.setCharPref("dummylipsum.replace_chars_ta", elem.value);
 
 			elem = document.getElementById('rep_ratio_ta');
 			num = parseInt(elem.value);
@@ -1073,7 +1073,7 @@ var DummyLipsum = {
 				}
 			}
 			prefs.setIntPref("dummylipsum.replace_ratio_ta", num);
-			
+
 			window.close();
 		}
 		catch(e) {
@@ -1094,7 +1094,7 @@ var DummyLipsum = {
 	_dlToggleMenuItems: function() {
 		var elem;
 		var onInput = gContextMenu.onTextInput;
-		
+
 		elem = document.getElementById("dummy_lipsum_context_separator");
 		elem.hidden = !onInput;
 		elem = document.getElementById("dummy_lipsum_context");
@@ -1104,9 +1104,9 @@ var DummyLipsum = {
 
 	contextDummyLipsum: function() {
 		var targetInput = gContextMenu.target;
-		
+
 		// Reload preferences
-		var _dl_prefs = DummyLipsum.loadPrefs();
+        var _dl_prefs = DummyLipsum.loadPrefs();
 
 		if ((targetInput.type != null) && (targetInput.type == 'text')) {
 			// Input field
@@ -1119,7 +1119,7 @@ var DummyLipsum = {
 		else {
 			// Check HTML editors
 			var contentWrapper = new XPCNativeWrapper(window._content, 'doc');
-			
+
 			if (contentWrapper.wrappedJSObject.tinyMCE != null) {
 				// tinyMCE
 				DummyLipsum.fillEditor(contentWrapper.wrappedJSObject.tinyMCE, DummyLipsum.ED_TYPE_TINYMCE);
@@ -1216,7 +1216,7 @@ var DummyLipsum = {
 			catch (e) {
 				size = 0;
 			}
-		
+
 			if ((!isNaN(max)) && (!isNaN(size)) && (max > 0) && (size > 0)) {
 				lon = Math.round((max + size) / 2);
 				type = 'bytes';
@@ -1230,12 +1230,12 @@ var DummyLipsum = {
 				type = 'bytes';
 			}
 		}
-		
+
 		if (lon == 0) {
 			lon = _dl_prefs["num_items_tf"];
 			type = DummyLipsum.types_values[_dl_prefs["items_type_tf"]];
 		}
-		
+
 		DummyLipsum.populateForm(target, lon, type, _dl_prefs["with_lorem_tf"], _dl_prefs["with_punctuation_tf"], _dl_prefs["show_tags_tf"], _dl_prefs["autocopy_tf"], "_tf");
 	},
 
@@ -1260,7 +1260,7 @@ var DummyLipsum = {
 			catch (e) {
 				rows = 0;
 			}
-			
+
 			if ((!isNaN(cols)) && (!isNaN(rows)) && (cols > 0) && (rows > 0)) {
 				lon = cols * rows;
 				type = 'bytes';
@@ -1274,12 +1274,12 @@ var DummyLipsum = {
 				type = 'bytes';
 			}
 		}
-		
+
 		if (lon == 0) {
 			lon = _dl_prefs["num_items_ta"];
 			type = DummyLipsum.types_values[_dl_prefs["items_type_ta"]];
 		}
-		
+
 		DummyLipsum.populateForm(target, lon, type, _dl_prefs["with_lorem_ta"], _dl_prefs["with_punctuation_ta"], _dl_prefs["show_tags_ta"], _dl_prefs["autocopy_ta"], "_ta");
 	},
 
@@ -1300,7 +1300,7 @@ var DummyLipsum = {
 			start = DummyLipsum._url_start + "=" + ((with_lorem) ? DummyLipsum.start_value_yes : DummyLipsum.start_value_no);
 			punctuation = DummyLipsum._url_punctuation + "=" + ((with_punctuation) ? DummyLipsum.punctuation_value_yes : DummyLipsum.punctuation_value_no);
 			var url = DummyLipsum._baseURL + "?" + num + "&" + type + "&" + start + "&" + punctuation;
-			
+
 			//target.value = 'Fetching...';
 			target.value = DummyLipsum.getFetchingLabel();
 			var pos = DummyLipsum.nextEmpty();
@@ -1330,10 +1330,10 @@ var DummyLipsum = {
 			start = DummyLipsum._url_start + "=" + ((with_lorem) ? DummyLipsum.start_value_yes : DummyLipsum.start_value_no);
 			punctuation = DummyLipsum._url_punctuation + "=" + ((with_punctuation) ? DummyLipsum.punctuation_value_yes : DummyLipsum.punctuation_value_no);
 			var url = DummyLipsum._baseURL + "?" + num + "&" + type + "&" + start + "&" + punctuation;
-			
+
 			var pos = DummyLipsum.nextEmpty();
 			DummyLipsum.inputs_global[pos] = target;
-			
+
 			_request = Components.classes["@mozilla.org/xmlextras/xmlhttprequest;1"].createInstance(Components.interfaces.nsIXMLHttpRequest);
 			_request.open("GET", url, true);
 			_request.overrideMimeType("text/xml");
@@ -1351,7 +1351,7 @@ var DummyLipsum = {
 		DummyLipsum.stopInterval(time_id, global_pos);
 		try {
 			var body = "";
-			
+
 			if (!aResponse || aStatus > 200) {
 				var error = "Error";
 				if (aResponse)
@@ -1360,7 +1360,7 @@ var DummyLipsum = {
 				alert(error);
 				return;
 			}
-		
+
 			//body = aResponse.getElementById("lipsum").innerHTML;
 			var nodes = aResponse.getElementsByTagName("lipsum");
 			if (nodes.length <= 0) {
@@ -1374,9 +1374,9 @@ var DummyLipsum = {
 				alert("Error");
 				return;
 			}
-			
+
 			body = DummyLipsum.rebuidTags(body, DummyLipsum.getWhatFromURL(aResponse.baseURI));
-			
+
 			if (!show_tags) {
 				body = DummyLipsum.removeTags(body);
 			}
@@ -1384,13 +1384,13 @@ var DummyLipsum = {
 				body = DummyLipsum.removeAttributes(body);
 			}
 			body = DummyLipsum.addSpecialChars(body, pref_suffix);
-			
+
 			if (target.type == 'text') {
 				body = DummyLipsum.replaceAll(body, "\n", "");
 			}
 
 			target.value = body;
-			
+
 			if (autocopy) {
 				DummyLipsum.copyDummyContext(body);
 			}
@@ -1404,7 +1404,7 @@ var DummyLipsum = {
 	_onPopulateEditorLoad: function(target, ed_type, global_pos, autocopy, aResponse, aStatus) {
 		try {
 			var body = "";
-			
+
 			if (!aResponse || aStatus > 200) {
 				var error = "Error";
 				if (aResponse)
@@ -1413,7 +1413,7 @@ var DummyLipsum = {
 				alert(error);
 				return;
 			}
-		
+
 			//body = aResponse.getElementById("lipsum").innerHTML;
 			var nodes = aResponse.getElementsByTagName("lipsum");
 			if (nodes.length <= 0) {
@@ -1427,12 +1427,12 @@ var DummyLipsum = {
 				alert("Error");
 				return;
 			}
-			
+
 			body = DummyLipsum.rebuidTags(body, DummyLipsum.getWhatFromURL(aResponse.baseURI));
-			
+
 			body = DummyLipsum.removeAttributes(body);
 			body = DummyLipsum.addSpecialChars(body, "_te");
-			
+
 			switch (ed_type) {
 				case DummyLipsum.ED_TYPE_TINYMCE:
 					// TinyMCE
@@ -1489,7 +1489,7 @@ var DummyLipsum = {
 				return i;
 			}
 		}
-		
+
 		return i;
 	},
 
