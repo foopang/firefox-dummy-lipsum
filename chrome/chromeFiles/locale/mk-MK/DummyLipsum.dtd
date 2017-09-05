@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Генерирај">
+<!ENTITY dl.paragraphs "параграфи">
+<!ENTITY dl.words "зборови">
+<!ENTITY dl.bytes "бајти">
+<!ENTITY dl.lists "листи">
+<!ENTITY dl.start_with_lorem "Започни со &apos;Lorem ipsum dolor sit amet...&apos;">
+<!ENTITY dl.autocopy "Автоматски копирај го генерираниот текст во таблата со исечоци">
+<!ENTITY dl.copy "Копирај во табла со исечоци">
+<!ENTITY dl.close "Затвори">
+<!ENTITY dl.ak_generate "С">
+<!ENTITY dl.ak_copy "К">
+<!ENTITY dl.show_html "Прикажи HTML ознаки">
+<!ENTITY dl.insert_dummy "Вметни Dummy Lipsum">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum генератор">
+<!ENTITY dl.version "верзија">
+<!ENTITY dl.created_by "Креирано од">
+<!ENTITY dl.homepage "Домашна страница">
+<!ENTITY dl.text_from "Lorem Ipsum текст од">
+<!ENTITY dl.def_values "Зададени вредности">
+<!ENTITY dl.def_values_tf "Text Field default values">
+<!ENTITY dl.def_values_ta "Text Area default values">
+<!ENTITY dl.def_values_te "Text Editor default values">
+<!ENTITY dl.auto_size_first "Try to detect text size first">
+<!ENTITY dl.replace_chars "Special characters (separate them with a comma &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "Special characters ratio:">
+<!ENTITY dl.add_punctuation "Додади интерпукциски знак (!,?)">
+<!ENTITY dl.cancel "Откажи">
+<!ENTITY dl.save "Зачувај">
+<!ENTITY dl.ak_save "З">

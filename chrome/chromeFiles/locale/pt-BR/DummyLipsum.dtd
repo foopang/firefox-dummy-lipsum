@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Gerar">
+<!ENTITY dl.paragraphs "parágrafos">
+<!ENTITY dl.words "palavras">
+<!ENTITY dl.bytes "bytes">
+<!ENTITY dl.lists "listas">
+<!ENTITY dl.start_with_lorem "Começar com «Lorem ipsum dolor sit amet...»">
+<!ENTITY dl.autocopy "Copiar automaticamente para a área de transferência o texto gerado">
+<!ENTITY dl.copy "Copiar para a área de transferência">
+<!ENTITY dl.close "Fechar">
+<!ENTITY dl.ak_generate "G">
+<!ENTITY dl.ak_copy "C">
+<!ENTITY dl.show_html "Mostrar tags HTML">
+<!ENTITY dl.insert_dummy "Inserir Dummy Lipsum">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Gerador de Dummy Lipsum">
+<!ENTITY dl.version "versão">
+<!ENTITY dl.created_by "Criado por">
+<!ENTITY dl.homepage "Homepage">
+<!ENTITY dl.text_from "Texto Lorem Ipsum de">
+<!ENTITY dl.def_values "Valores por omissão">
+<!ENTITY dl.def_values_tf "Valores por omissão do campo de texto">
+<!ENTITY dl.def_values_ta "Valores por omissão da área de texto">
+<!ENTITY dl.def_values_te "Valores por omissão do editor de texto">
+<!ENTITY dl.auto_size_first "Averigue primeiro o tamanho do texto">
+<!ENTITY dl.replace_chars "Caracteres especiais (devem ser separados com uma vírgula &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "Rácio de caracteres especiais:">
+<!ENTITY dl.add_punctuation "Acrescentar sinais de pontuação (!, ?)">
+<!ENTITY dl.cancel "Cancelar">
+<!ENTITY dl.save "Gravar">
+<!ENTITY dl.ak_save "S">

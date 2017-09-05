@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<!--
+**    Copyright 2009 Sogame
+**
+**    This file is part of Dummy Lipsum.
+**
+**    Dummy Lipsum is free software: you can redistribute it and/or modify
+**    it under the terms of the GNU General Public License as published by
+**    the Free Software Foundation, either version 3 of the License, or
+**    (at your option) any later version.
+**
+**    Dummy Lipsum is distributed in the hope that it will be useful,
+**    but WITHOUT ANY WARRANTY; without even the implied warranty of
+**    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+**    GNU General Public License for more details.
+**
+**    You should have received a copy of the GNU General Public License
+**    along with Dummy Lipsum. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://dummylipsum/skin/dummylipsum.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://dummylipsum/locale/DummyLipsum.dtd">
+
+<window
+		title="Dummy Lipsum"
+		width="450"
+		height="290"
+		onload="dlSetFocus('close_btn')"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script src="DummyLipsum.js" />
+	
+	<vbox flex="1">
+		<vbox class="about_window">
+			<hbox>
+				<vbox>
+					<label value="Dummy Lipsum" class="about_extname" />
+					<label value="&dl.version; 1.0" />
+					<separator class="thin" />
+					<label value="Generate &quot;Lorem Ipsum&quot; dummy text." />
+				</vbox>
+				<vbox>
+					<image src="chrome://dummylipsum/skin/icon_list.png" />
+					<spacer flex="1" />
+				</vbox>
+				<spacer />
+			</hbox>
+
+			<separator class="thin" />
+			<separator class="groove" />
+			<separator class="thin" />
+
+			<label value="&dl.created_by;" class="about_title" />
+			<label value="Sogame (sogame@gmail.com)" />
+
+			<separator class="thin" />
+			<label value="&dl.homepage;" class="about_title" />
+			<label value="http://www.example.com/" class="link" onclick="window.opener.open('http://www.example.com', '_blank')" />
+
+			<separator class="thin" />
+			<label value="&dl.text_from;" class="about_title" />
+			<label value="http://www.lipsum.com/" class="link" onclick="window.opener.open('http://www.lipsum.com', '_blank')" />
+		</vbox>
+
+		<separator class="groove-thin" />
+		<spacer flex="1" />
+		<hbox>
+			<spacer flex="1" />
+			<button id="close_btn" label="&dl.close;" oncommand="window.close();" tabindex="1" />
+		</hbox>
+	</vbox>
+</window>

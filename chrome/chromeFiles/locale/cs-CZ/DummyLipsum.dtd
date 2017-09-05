@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Generovat">
+<!ENTITY dl.paragraphs "odstavců">
+<!ENTITY dl.words "slov">
+<!ENTITY dl.bytes "bytů">
+<!ENTITY dl.lists "seznamů">
+<!ENTITY dl.start_with_lorem "Začít &apos;Lorem ipsum dolor sit amet...&apos;">
+<!ENTITY dl.autocopy "Automaticky kopírovat vygenerovaný text do schránky">
+<!ENTITY dl.copy "Zkopírovat do schránky">
+<!ENTITY dl.close "Zavřít">
+<!ENTITY dl.ak_generate "g">
+<!ENTITY dl.ak_copy "k">
+<!ENTITY dl.show_html "Zobrazit HTML tagy">
+<!ENTITY dl.insert_dummy "Vložit výplňový text">
+<!ENTITY dl.toolbar_label "Výpňový text">
+<!ENTITY dl.toolbar_tooltip "Generátor výplňového textu">
+<!ENTITY dl.version "verze">
+<!ENTITY dl.created_by "Vytvořil">
+<!ENTITY dl.homepage "Domovská stránka">
+<!ENTITY dl.text_from "Text Lorem Ipsum z">
+<!ENTITY dl.def_values "Výchozí hodnoty">
+<!ENTITY dl.def_values_tf "Výchozí hodnoty textových vstupů">
+<!ENTITY dl.def_values_ta "Výchozí hodnoty textových polí">
+<!ENTITY dl.def_values_te "Výchozí hodnoty textových editorů">
+<!ENTITY dl.auto_size_first "Pokusit se nejprve detekovat délku">
+<!ENTITY dl.replace_chars "Speciální znaky (oddělte je čárkou &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "Podíl speciálních znaků:">
+<!ENTITY dl.add_punctuation "Přidat interpunkci (!, ?)">
+<!ENTITY dl.cancel "Zrušit">
+<!ENTITY dl.save "Uložit">
+<!ENTITY dl.ak_save "U">

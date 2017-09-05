@@ -1,0 +1,26 @@
+content dummylipsum chrome/chromeFiles/content/
+locale dummylipsum en-US chrome/chromeFiles/locale/en-US/
+locale dummylipsum ca-AD chrome/chromeFiles/locale/ca-AD/
+locale dummylipsum es-ES chrome/chromeFiles/locale/es-ES/
+locale dummylipsum nl-NL chrome/chromeFiles/locale/nl-NL/
+locale dummylipsum hu-HU chrome/chromeFiles/locale/hu-HU/
+locale dummylipsum hr-HR chrome/chromeFiles/locale/hr-HR/
+locale dummylipsum th-TH chrome/chromeFiles/locale/th-TH/
+locale dummylipsum pt-BR chrome/chromeFiles/locale/pt-BR/
+locale dummylipsum it-IT chrome/chromeFiles/locale/it-IT/
+locale dummylipsum sv-SE chrome/chromeFiles/locale/sv-SE/
+locale dummylipsum de-DE chrome/chromeFiles/locale/de-DE/
+locale dummylipsum fr-FR chrome/chromeFiles/locale/fr-FR/
+locale dummylipsum mk-MK chrome/chromeFiles/locale/mk-MK/
+locale dummylipsum ja-JP chrome/chromeFiles/locale/ja-JP/
+locale dummylipsum pl-PL chrome/chromeFiles/locale/pl-PL/
+locale dummylipsum bg-BG chrome/chromeFiles/locale/bg-BG/
+locale dummylipsum he-IL chrome/chromeFiles/locale/he-IL/
+locale dummylipsum da-DK chrome/chromeFiles/locale/da-DK/
+locale dummylipsum cs-CZ chrome/chromeFiles/locale/cs-CZ/
+locale dummylipsum fi-FI chrome/chromeFiles/locale/fi-FI/
+
+skin dummylipsum classic/1.0 chrome/chromeFiles/skin/
+style chrome://global/content/customizeToolbar.xul chrome://dummylipsum/skin/dummylipsum.css
+
+overlay chrome://browser/content/browser.xul chrome://dummylipsum/content/DummyLipsum.xul

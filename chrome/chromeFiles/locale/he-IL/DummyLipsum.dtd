@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "ייצר">
+<!ENTITY dl.paragraphs "פיסקאות">
+<!ENTITY dl.words "מילים">
+<!ENTITY dl.bytes "בתים">
+<!ENTITY dl.lists "רשימות">
+<!ENTITY dl.start_with_lorem "התחל עם &apos;לורם איפסום דולור סיט אמט...&apos;">
+<!ENTITY dl.autocopy "העתק את הטקסט שנוצר ללוח הגזירים אוטומטית">
+<!ENTITY dl.copy "העתק ללוח הגזירים">
+<!ENTITY dl.close "סגור">
+<!ENTITY dl.ak_generate "י">
+<!ENTITY dl.ak_copy "ע">
+<!ENTITY dl.show_html "הצג תגיות HTML">
+<!ENTITY dl.insert_dummy "הזן טקסט ליפסום סתמי">
+<!ENTITY dl.toolbar_label "ליפסום סתמי">
+<!ENTITY dl.toolbar_tooltip "יצרן ליפסום סתמי">
+<!ENTITY dl.version "גירסה">
+<!ENTITY dl.created_by "נוצר על ידי">
+<!ENTITY dl.homepage "דף הבית">
+<!ENTITY dl.text_from "טקסט לורם איפסום מ-">
+<!ENTITY dl.def_values "ערכי ברירת מחדל">
+<!ENTITY dl.def_values_tf "ערכי ברירת מחדל לשדות טקסט">
+<!ENTITY dl.def_values_ta "ערכי ברירת מחדל של איזור הטקסט">
+<!ENTITY dl.def_values_te "ערכי ברירת המחדל של עורך הטקסט">
+<!ENTITY dl.auto_size_first "נסה לזהות את אורך הטקסט תחילה">
+<!ENTITY dl.replace_chars "תווים מיוחדים (הפרד בפסיק &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "יחס התווים המיוחדים:">
+<!ENTITY dl.add_punctuation "הוסף סימני פיסוק (!, ?)">
+<!ENTITY dl.cancel "ביטול">
+<!ENTITY dl.save "שמור">
+<!ENTITY dl.ak_save "ש">

@@ -1,0 +1,35 @@
+/* Toolbar icons */
+#dummylipsum-button {
+	list-style-image: url("chrome://dummylipsum/skin/icon_large.png");
+}
+
+toolbar[iconsize="small"] #dummylipsum-button {
+	list-style-image: url("chrome://dummylipsum/skin/icon_small.png");
+}
+
+
+/* About window */
+.about_window {
+	background-color: white;
+	padding: 13px;
+	padding-top: 5px;
+}
+
+.about_extname {
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.about_title {
+	font-weight: bold;
+}
+
+.link {
+	color: #0000FF;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.link:hover {
+	text-decoration: underline;
+}

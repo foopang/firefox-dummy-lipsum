@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Genereer">
+<!ENTITY dl.paragraphs "paragrafen">
+<!ENTITY dl.words "woorden">
+<!ENTITY dl.bytes "bytes">
+<!ENTITY dl.lists "lijsten">
+<!ENTITY dl.start_with_lorem "Begin met &apos;Lorem ipsum dolor sit amet...&apos;">
+<!ENTITY dl.autocopy "Kopieer de gegeneerde tekst automatisch naar het klembord">
+<!ENTITY dl.copy "Kopieer naar klembord">
+<!ENTITY dl.close "Sluit">
+<!ENTITY dl.ak_generate "G">
+<!ENTITY dl.ak_copy "C">
+<!ENTITY dl.show_html "Laat HTML tags zien">
+<!ENTITY dl.insert_dummy "Voeg Dummy Lipsum in">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum Generator">
+<!ENTITY dl.version "versie">
+<!ENTITY dl.created_by "Gemaakt door">
+<!ENTITY dl.homepage "Homepage">
+<!ENTITY dl.text_from "Lorem Ipsum tekst van">
+<!ENTITY dl.def_values "Standaardwaarden">
+<!ENTITY dl.def_values_tf "Standaardwaarden voor tekst-veld">
+<!ENTITY dl.def_values_ta "Standaarwaarden voor textarea">
+<!ENTITY dl.def_values_te "Standaardwaarden voor een tekst editor">
+<!ENTITY dl.auto_size_first "Probeer de grootte van de tekst te detecteren">
+<!ENTITY dl.replace_chars "Spaciale karakters (scheidt met een komma &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "Ratio van speciale karakters:">
+<!ENTITY dl.add_punctuation "Voeg interpunctie toe(!, ?)">
+<!ENTITY dl.cancel "Annuleer">
+<!ENTITY dl.save "Bewaar">
+<!ENTITY dl.ak_save "S">

@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Generera">
+<!ENTITY dl.paragraphs "stycken">
+<!ENTITY dl.words "ord">
+<!ENTITY dl.bytes "byte">
+<!ENTITY dl.lists "listor">
+<!ENTITY dl.start_with_lorem "Börja med &quot;Lorem ipsum dolor sit amet...&quot;">
+<!ENTITY dl.autocopy "Kopiera automatiskt genererad text till urklipp">
+<!ENTITY dl.copy "Kopiera till urklipp">
+<!ENTITY dl.close "Stäng">
+<!ENTITY dl.ak_generate "G">
+<!ENTITY dl.ak_copy "C">
+<!ENTITY dl.show_html "Visa HTML-taggar">
+<!ENTITY dl.insert_dummy "Infoga Dummy Lipsum">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum Generator">
+<!ENTITY dl.version "version">
+<!ENTITY dl.created_by "Skapad av">
+<!ENTITY dl.homepage "Hemsida">
+<!ENTITY dl.text_from "Lorem Ipsum text från">
+<!ENTITY dl.def_values "Standardvärden">
+<!ENTITY dl.def_values_tf "Text Field default values">
+<!ENTITY dl.def_values_ta "Text Area default values">
+<!ENTITY dl.def_values_te "Text Editor default values">
+<!ENTITY dl.auto_size_first "Try to detect text size first">
+<!ENTITY dl.replace_chars "Special characters (separate them with a comma &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "Special characters ratio:">
+<!ENTITY dl.add_punctuation "Add punctuation (!, ?)">
+<!ENTITY dl.cancel "Avbryt">
+<!ENTITY dl.save "Spara">
+<!ENTITY dl.ak_save "S">

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<!--
+**    Copyright 2009 Sogame
+**
+**    This file is part of Dummy Lipsum.
+**
+**    Dummy Lipsum is free software: you can redistribute it and/or modify
+**    it under the terms of the GNU General Public License as published by
+**    the Free Software Foundation, either version 3 of the License, or
+**    (at your option) any later version.
+**
+**    Dummy Lipsum is distributed in the hope that it will be useful,
+**    but WITHOUT ANY WARRANTY; without even the implied warranty of
+**    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+**    GNU General Public License for more details.
+**
+**    You should have received a copy of the GNU General Public License
+**    along with Dummy Lipsum. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<?xml-stylesheet href="chrome://dummylipsum/skin/dummylipsum.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://dummylipsum/locale/DummyLipsum.dtd">
+
+<overlay id="DummyLipsum" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://global/content/XPCNativeWrapper.js" />
+	<script src="chrome://global/content/nsUserSettings.js" />
+	<script src="DummyLipsum.js" />
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="bundle_dummylipsum" src="chrome://dummylipsum/locale/main.properties" />
+	</stringbundleset>
+	
+	<!-- Tools Menu -->
+	<menupopup id="menu_ToolsPopup">
+		<menuitem id="dummylipsum_menu" label="Dummy Lipsum" oncommand="DummyLipsum.onMenuItemCommand(event);" accesskey="y" insertbefore="prefSep" />
+	</menupopup>
+
+	<!-- Sidebar -->
+	<keyset id="mainKeyset">
+		<key id="dummylipsum-sidebar-key" modifiers="alt" key="Y" oncommand="toggleSidebar('DummyLipsumSidebar');"/>
+	</keyset>
+	<menupopup id="viewSidebarMenu">
+		<menuitem observes="DummyLipsumSidebar" key="dummylipsum-sidebar-key" />
+	</menupopup>
+	<broadcasterset id="mainBroadcasterSet">
+		<broadcaster id="DummyLipsumSidebar" label="Dummy Lipsum" sidebarurl="chrome://dummylipsum/content/sidepanel.xul" sidebartitle="Dummy Lipsum" autoCheck="false" group="sidebar" type="checkbox" oncommand="toggleSidebar('DummyLipsumSidebar');" />
+	</broadcasterset>
+	
+	<!-- Toolbar Icon -->
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton id="dummylipsum-button" class="toolbarbutton-1 chromeclass-toolbar-additional" label="&dl.toolbar_label;" tooltiptext="&dl.toolbar_tooltip;" oncommand="DummyLipsum.onToolbarButtonCommand(event);" />
+	</toolbarpalette>
+	
+	
+	<!-- Context Menu -->
+	<popup id="contentAreaContextMenu">
+		<menuseparator id="dummy_lipsum_context_separator" hidden="true" insertafter="context-selectAll" />
+		<menuitem id="dummy_lipsum_context" label="&dl.insert_dummy;" hidden="true" oncommand="DummyLipsum.contextDummyLipsum();"/>
+	</popup>
+</overlay>

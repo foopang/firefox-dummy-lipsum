@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Generate">
+<!ENTITY dl.paragraphs "paragraphs">
+<!ENTITY dl.words "words">
+<!ENTITY dl.bytes "bytes">
+<!ENTITY dl.lists "lists">
+<!ENTITY dl.start_with_lorem "Start with &apos;Lorem ipsum dolor sit amet...&apos;">
+<!ENTITY dl.autocopy "Automatically copy generated text to the clipboard">
+<!ENTITY dl.copy "Copy to clipboard">
+<!ENTITY dl.close "Close">
+<!ENTITY dl.ak_generate "G">
+<!ENTITY dl.ak_copy "C">
+<!ENTITY dl.show_html "Show HTML tags">
+<!ENTITY dl.insert_dummy "Insert Dummy Lipsum">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum Generator">
+<!ENTITY dl.version "version">
+<!ENTITY dl.created_by "Created by">
+<!ENTITY dl.homepage "Homepage">
+<!ENTITY dl.text_from "Lorem Ipsum text from">
+<!ENTITY dl.def_values "Default values">
+<!ENTITY dl.def_values_tf "Text Field default values">
+<!ENTITY dl.def_values_ta "Text Area default values">
+<!ENTITY dl.def_values_te "Text Editor default values">
+<!ENTITY dl.auto_size_first "Try to detect text length first">
+<!ENTITY dl.replace_chars "Special characters (separate them with a comma &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "Special characters ratio:">
+<!ENTITY dl.add_punctuation "Add punctuation (!, ?)">
+<!ENTITY dl.cancel "Cancel">
+<!ENTITY dl.save "Save">
+<!ENTITY dl.ak_save "S">

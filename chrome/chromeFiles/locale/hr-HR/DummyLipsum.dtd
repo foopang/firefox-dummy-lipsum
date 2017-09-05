@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Napravi">
+<!ENTITY dl.paragraphs "odlomka">
+<!ENTITY dl.words "riječi">
+<!ENTITY dl.bytes "bajtova">
+<!ENTITY dl.lists "popisa">
+<!ENTITY dl.start_with_lorem "Započni s &apos;Lorem ipsum dolor sit amet...&apos;">
+<!ENTITY dl.autocopy "Automatski kopiraj napravljeni tekst u međuspremnik">
+<!ENTITY dl.copy "Kopiraj u međuspremnik">
+<!ENTITY dl.close "Zatvori">
+<!ENTITY dl.ak_generate "N">
+<!ENTITY dl.ak_copy "K">
+<!ENTITY dl.show_html "Prikaži HTML oznake">
+<!ENTITY dl.insert_dummy "Umetni Dummy Lipsum">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum Generator">
+<!ENTITY dl.version "inačica">
+<!ENTITY dl.created_by "Kreirao">
+<!ENTITY dl.homepage "Početna stranica">
+<!ENTITY dl.text_from "Lorem Ipsum tekst iz">
+<!ENTITY dl.def_values "Zadane vrijednosti">
+<!ENTITY dl.def_values_tf "Text Field default values">
+<!ENTITY dl.def_values_ta "Text Area default values">
+<!ENTITY dl.def_values_te "Text Editor default values">
+<!ENTITY dl.auto_size_first "Try to detect text size first">
+<!ENTITY dl.replace_chars "Special characters (separate them with a comma &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "Special characters ratio:">
+<!ENTITY dl.add_punctuation "Add punctuation (!, ?)">
+<!ENTITY dl.cancel "Odustani">
+<!ENTITY dl.save "Spremi">
+<!ENTITY dl.ak_save "S">

@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Generer">
+<!ENTITY dl.paragraphs "afsnit">
+<!ENTITY dl.words "ord">
+<!ENTITY dl.bytes "byte">
+<!ENTITY dl.lists "lister">
+<!ENTITY dl.start_with_lorem "Begynd med  &apos;Lorem ipsum dolor sit amet...&apos;">
+<!ENTITY dl.autocopy "Kopier automatisk genereret tekst til udklipsholder">
+<!ENTITY dl.copy "Kopier til udklipsholder">
+<!ENTITY dl.close "Luk">
+<!ENTITY dl.ak_generate "G">
+<!ENTITY dl.ak_copy "K">
+<!ENTITY dl.show_html "Vis HTML tags">
+<!ENTITY dl.insert_dummy "Indsæt Dummy Lipsum">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum generator">
+<!ENTITY dl.version "version">
+<!ENTITY dl.created_by "Lavet af">
+<!ENTITY dl.homepage "Hjemmeside">
+<!ENTITY dl.text_from "Lorem Ipsum tekst fra">
+<!ENTITY dl.def_values "Standardværdier">
+<!ENTITY dl.def_values_tf "Tekstfelt standardværdier">
+<!ENTITY dl.def_values_ta "Tekstboks standardværdier">
+<!ENTITY dl.def_values_te "HTML-teksteditor standardværdier">
+<!ENTITY dl.auto_size_first "Prøv at finde tekstlængden først">
+<!ENTITY dl.replace_chars "Specialtegn (adskilt af et komma &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "Specialtegns andel:">
+<!ENTITY dl.add_punctuation "Tilføj tegnsætning (!, ?)">
+<!ENTITY dl.cancel "Annuller">
+<!ENTITY dl.save "Gem">
+<!ENTITY dl.ak_save "G">

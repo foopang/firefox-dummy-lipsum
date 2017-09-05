@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Erstellen">
+<!ENTITY dl.paragraphs "Absätze">
+<!ENTITY dl.words "Wörter">
+<!ENTITY dl.bytes "Byte">
+<!ENTITY dl.lists "Listen">
+<!ENTITY dl.start_with_lorem "Mit &quot;Lorem ipsum dolor sit amet...&quot; beginnen">
+<!ENTITY dl.autocopy "Erzeugten Text automatisch in die Zwischenablage kopieren">
+<!ENTITY dl.copy "In die Zwischenablage kopieren">
+<!ENTITY dl.close "Schließen">
+<!ENTITY dl.ak_generate "E">
+<!ENTITY dl.ak_copy "K">
+<!ENTITY dl.show_html "HTML-Tags anzeigen">
+<!ENTITY dl.insert_dummy "Dummy Lipsum einfügen">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum Ersteller">
+<!ENTITY dl.version "Version">
+<!ENTITY dl.created_by "Erstellt von">
+<!ENTITY dl.homepage "Homepage">
+<!ENTITY dl.text_from "Lorem Ipsum Text von">
+<!ENTITY dl.def_values "Standardwerte">
+<!ENTITY dl.def_values_tf "Standardwerte Textfeld (einzeilig)">
+<!ENTITY dl.def_values_ta "Standardwerte Textbox (mehrzeilig)">
+<!ENTITY dl.def_values_te "Standardwerte Texteditor">
+<!ENTITY dl.auto_size_first "Versuche zuerst Textgröße festzustellen">
+<!ENTITY dl.replace_chars "Sonderzeichen (mit Komma &quot;,&quot; trennen):">
+<!ENTITY dl.replace_ratio "Sonderzeichen-Ratio:">
+<!ENTITY dl.add_punctuation "Punktation einfügen (!, ?)">
+<!ENTITY dl.cancel "Abbrechen">
+<!ENTITY dl.save "Speichern">
+<!ENTITY dl.ak_save "S">

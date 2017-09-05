@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Generar">
+<!ENTITY dl.paragraphs "paràgrafs">
+<!ENTITY dl.words "paraules">
+<!ENTITY dl.bytes "bytes">
+<!ENTITY dl.lists "llistes">
+<!ENTITY dl.start_with_lorem "Començar amb &apos;Lorem ipsum dolor sit amet...&apos;">
+<!ENTITY dl.autocopy "Copiar automaticament el text generat al porta-retalls">
+<!ENTITY dl.copy "Copiar al porta-retalls">
+<!ENTITY dl.close "Tancar">
+<!ENTITY dl.ak_generate "G">
+<!ENTITY dl.ak_copy "C">
+<!ENTITY dl.show_html "Mostrar etiquetes HTML">
+<!ENTITY dl.insert_dummy "Insertar Dummy Lipsum">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum Generator">
+<!ENTITY dl.version "versió">
+<!ENTITY dl.created_by "Creat per">
+<!ENTITY dl.homepage "Pàgina principal">
+<!ENTITY dl.text_from "Text Lorem Ipsum de">
+<!ENTITY dl.def_values "Valors per defecte">
+<!ENTITY dl.def_values_tf "Valors per defecte dels Camps de Text">
+<!ENTITY dl.def_values_ta "Valors per defecte de les Àrees de Text">
+<!ENTITY dl.def_values_te "Valors per defecte dels Editors de Text">
+<!ENTITY dl.auto_size_first "Primer intentar detectar la longitud del text">
+<!ENTITY dl.replace_chars "Caràcters especials (separa&apos;ls amb una coma &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "Percentatge de caràcters especials:">
+<!ENTITY dl.add_punctuation "Afegir signes de puntuació">
+<!ENTITY dl.cancel "Cancel·lar">
+<!ENTITY dl.save "Guardar">
+<!ENTITY dl.ak_save "G">

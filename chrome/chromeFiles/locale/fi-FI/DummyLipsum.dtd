@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Luo">
+<!ENTITY dl.paragraphs "kappaletta">
+<!ENTITY dl.words "sanaa">
+<!ENTITY dl.bytes "tavua">
+<!ENTITY dl.lists "listaa">
+<!ENTITY dl.start_with_lorem "Aloita tekstillä &apos;Lorem ipsum dolor sit amet...&apos;">
+<!ENTITY dl.autocopy "Kopioi luotu teksti automaattisesti leikepöydälle">
+<!ENTITY dl.copy "Kopioi leikepöydälle">
+<!ENTITY dl.close "Sulje">
+<!ENTITY dl.ak_generate "L">
+<!ENTITY dl.ak_copy "K">
+<!ENTITY dl.show_html "Näytä HTML-tunnisteet">
+<!ENTITY dl.insert_dummy "Syötä Dummy Lipsum">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum generoija">
+<!ENTITY dl.version "versio">
+<!ENTITY dl.created_by "Tehnyt">
+<!ENTITY dl.homepage "Kotisivu">
+<!ENTITY dl.text_from "Lorem Ipsum teksti">
+<!ENTITY dl.def_values "Oletusarvot">
+<!ENTITY dl.def_values_tf "Tekstikentän oletusarvot">
+<!ENTITY dl.def_values_ta "Tekstialueen oletusarvot">
+<!ENTITY dl.def_values_te "Tekstieditorin oletusarvot">
+<!ENTITY dl.auto_size_first "Yritä havaita tekstin pituus ensin">
+<!ENTITY dl.replace_chars "Erikoismerkit(erottele toisistaan pilkulla)">
+<!ENTITY dl.replace_ratio "Erikoismerkkien suhde:">
+<!ENTITY dl.add_punctuation "Lisää välimerkkejä(!,?)">
+<!ENTITY dl.cancel "Peruuta">
+<!ENTITY dl.save "Tallenna">
+<!ENTITY dl.ak_save "T">

@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "生成:">
+<!ENTITY dl.paragraphs "段落">
+<!ENTITY dl.words "語">
+<!ENTITY dl.bytes "バイト">
+<!ENTITY dl.lists "リスト">
+<!ENTITY dl.start_with_lorem "「Lorem ipsum dolor sit amet...」から始める">
+<!ENTITY dl.autocopy "生成されたテキストを自動的にクリップボードへコピーする">
+<!ENTITY dl.copy "クリップボードにコピー">
+<!ENTITY dl.close "閉じる">
+<!ENTITY dl.ak_generate "G">
+<!ENTITY dl.ak_copy "C">
+<!ENTITY dl.show_html "HTML タグを表示する">
+<!ENTITY dl.insert_dummy "Dummy Lipsum を挿入">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum 生成器">
+<!ENTITY dl.version "バージョン">
+<!ENTITY dl.created_by "作成者:">
+<!ENTITY dl.homepage "ホームページ">
+<!ENTITY dl.text_from "Lorem Ipsum 文:">
+<!ENTITY dl.def_values "既定値">
+<!ENTITY dl.def_values_tf "テキスト欄の既定値">
+<!ENTITY dl.def_values_ta "テキスト領域の既定値">
+<!ENTITY dl.def_values_te "テキストエディタの既定値">
+<!ENTITY dl.auto_size_first "始めにテキストサイズの検出を試みる">
+<!ENTITY dl.replace_chars "特殊文字 (カンマ「,」区切り)">
+<!ENTITY dl.replace_ratio "特殊文字比率:">
+<!ENTITY dl.add_punctuation "句読点を追加 (!, ?)">
+<!ENTITY dl.cancel "取り消す">
+<!ENTITY dl.save "保存">
+<!ENTITY dl.ak_save "S">

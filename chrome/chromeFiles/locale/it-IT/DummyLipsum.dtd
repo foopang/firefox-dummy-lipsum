@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Genera">
+<!ENTITY dl.paragraphs "paragrafi">
+<!ENTITY dl.words "parole">
+<!ENTITY dl.bytes "byte">
+<!ENTITY dl.lists "liste">
+<!ENTITY dl.start_with_lorem "Inizia con &quot;Lorem ipsum dolor sit amet...&quot;">
+<!ENTITY dl.autocopy "Copia automaticamente il testo generato negli appunti">
+<!ENTITY dl.copy "Copia negli appunti">
+<!ENTITY dl.close "Chiudi">
+<!ENTITY dl.ak_generate "G">
+<!ENTITY dl.ak_copy "C">
+<!ENTITY dl.show_html "Mostra i tag HTML">
+<!ENTITY dl.insert_dummy "Inserisci testo con Dummy Lipsum">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Genera testo con Dummy Lipsum">
+<!ENTITY dl.version "versione">
+<!ENTITY dl.created_by "Creata da">
+<!ENTITY dl.homepage "Sito web">
+<!ENTITY dl.text_from "Testo proveniente da Lorem Ipsum">
+<!ENTITY dl.def_values "Valori predefiniti">
+<!ENTITY dl.def_values_tf "Valori predefiniti del campo di testo">
+<!ENTITY dl.def_values_ta "Valori predefiniti dell&apos;area di testo">
+<!ENTITY dl.def_values_te "Valori predefiniti dell&apos;editor di testo">
+<!ENTITY dl.auto_size_first "Tenta di rilevare prima la dimensione del testo">
+<!ENTITY dl.replace_chars "Caratteri speciali (separati da una virgola):">
+<!ENTITY dl.replace_ratio "Proporzione dei caratteri speciali:">
+<!ENTITY dl.add_punctuation "Aggiungi la punteggiatura">
+<!ENTITY dl.cancel "Annulla">
+<!ENTITY dl.save "OK">
+<!ENTITY dl.ak_save "O">

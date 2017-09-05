@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<!--
+**    Copyright 2009 Sogame
+**
+**    This file is part of Dummy Lipsum.
+**
+**    Dummy Lipsum is free software: you can redistribute it and/or modify
+**    it under the terms of the GNU General Public License as published by
+**    the Free Software Foundation, either version 3 of the License, or
+**    (at your option) any later version.
+**
+**    Dummy Lipsum is distributed in the hope that it will be useful,
+**    but WITHOUT ANY WARRANTY; without even the implied warranty of
+**    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+**    GNU General Public License for more details.
+**
+**    You should have received a copy of the GNU General Public License
+**    along with Dummy Lipsum. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://dummylipsum/locale/DummyLipsum.dtd">
+
+<window
+		title="Dummy Lipsum"
+		width="450"
+		height="320"
+		onload="DummyLipsum.showPrefsValues(this.document); window.focus(); DummyLipsum.dlSetFocus('generate_btn');"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script src="chrome://global/content/nsUserSettings.js" />
+	<script src="DummyLipsum.js" />
+	
+	<keyset id="tscKeys">
+		<key id="tscClose" keycode="VK_ESCAPE" oncommand="close();" />
+	</keyset>
+	
+	
+	<vbox flex="1">
+		<hbox align="center">
+			<label value="&dl.generate;" control="num_items" />
+			<textbox id="num_items" size="4" style="text-align:right;" />
+			
+			<menulist id="items_type">
+				<menupopup>
+					<menuitem id="items_type_0" label="&dl.paragraphs;" value="0" />
+					<menuitem id="items_type_1" label="&dl.words;" value="1" />
+					<menuitem id="items_type_2" label="&dl.bytes;" value="2" />
+					<menuitem id="items_type_3" label="&dl.lists;" value="3" />
+				</menupopup>
+			</menulist>
+		</hbox>
+		
+		<hbox>
+			<checkbox id="with_lorem" label="&dl.start_with_lorem;" />
+			
+			<button id="generate_btn" label="&dl.generate;" accesskey="&dl.ak_generate;" oncommand="DummyLipsum.generateDummy();" />
+		</hbox>
+		
+		<checkbox id="with_punctuation" label="&dl.add_punctuation;" />
+		
+		<checkbox id="show_tags" label="&dl.show_html;" onclick="DummyLipsum.updateTags();" />
+		
+		<progressmeter id="load_progress" mode="undetermined" style="visibility:hidden;" />
+		
+		<textbox id="dummy_text" multiline="true" value="" readonly="true" style="height:100%;" flex="1" />
+		
+		<hbox>
+			<button id="copy_button" label="&dl.copy;" accesskey="&dl.ak_copy;" oncommand="DummyLipsum.copyDummy();" disabled="true" />
+			<spacer flex="1" />
+			<button label="&dl.close;" oncommand="close();" />
+		</hbox>
+	</vbox>
+</window>

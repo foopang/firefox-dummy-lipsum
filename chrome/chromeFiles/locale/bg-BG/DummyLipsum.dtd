@@ -1,0 +1,30 @@
+<!ENTITY dl.generate "Генериране">
+<!ENTITY dl.paragraphs "параграфa">
+<!ENTITY dl.words "думи">
+<!ENTITY dl.bytes "байта">
+<!ENTITY dl.lists "блока">
+<!ENTITY dl.start_with_lorem "Започни с &apos;Lorem ipsum dolor sit amet...&apos;">
+<!ENTITY dl.autocopy "Автоматично копирай генерирания текст в системния буфер">
+<!ENTITY dl.copy "Копирай в системния буфер">
+<!ENTITY dl.close "Затвори">
+<!ENTITY dl.ak_generate "Г">
+<!ENTITY dl.ak_copy "Ц">
+<!ENTITY dl.show_html "Покажи HTML тагове">
+<!ENTITY dl.insert_dummy "Вмъкни Dummy Lipsum">
+<!ENTITY dl.toolbar_label "Dummy Lipsum">
+<!ENTITY dl.toolbar_tooltip "Dummy Lipsum Генератор">
+<!ENTITY dl.version "версия">
+<!ENTITY dl.created_by "Автор">
+<!ENTITY dl.homepage "Страница на автора">
+<!ENTITY dl.text_from "Dummy Lipsum текст от">
+<!ENTITY dl.def_values "Стойности по подразбиране">
+<!ENTITY dl.def_values_tf "Стойности по подразбиране за текстово поле">
+<!ENTITY dl.def_values_ta "Стойности по подразбиране за текстова област">
+<!ENTITY dl.def_values_te "Стойности по подразбиране за текстов редактор">
+<!ENTITY dl.auto_size_first "Опитай първо да откриеш дължината на текста">
+<!ENTITY dl.replace_chars "Специални символи (разделени с запетайка &quot;,&quot;):">
+<!ENTITY dl.replace_ratio "Коефицент за специалните символи:">
+<!ENTITY dl.add_punctuation "Добави пунктуация (!, ?)">
+<!ENTITY dl.cancel "Отказ">
+<!ENTITY dl.save "Записване">
+<!ENTITY dl.ak_save "С">

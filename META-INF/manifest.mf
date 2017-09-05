@@ -1,0 +1,277 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TrUmm4AlqkBHeKuU3KOmRQ==
+SHA1-Digest: mKgDFR1bEv1YcC60NqCXGiiR7xU=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: t7wVLKiBYbXva2n0kjH4DA==
+SHA1-Digest: cpdXGzNX+5gem4bsAFzBTJwnD9Y=
+
+Name: chrome/chromeFiles/content/about.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XsUPA8jVHA1BXaIlxay8tQ==
+SHA1-Digest: PN61qqLFh6rG++bvEahicCEvw0Y=
+
+Name: chrome/chromeFiles/content/DummyLipsum.html_feed.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xScF0VQ6lCBnSNTd2QuKug==
+SHA1-Digest: wECdLiEA8JM5N8HtfywHmvwJvzE=
+
+Name: chrome/chromeFiles/content/DummyLipsum.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: unZerfn9iibjsrzEHFPXEA==
+SHA1-Digest: o6M1u35B/NnW9vWfGZvLxgQhidk=
+
+Name: chrome/chromeFiles/content/DummyLipsum.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tG73Ff5cGb9opsmaqShIQA==
+SHA1-Digest: 0Uyn5Cch0u8OKeX48hZY+fGm9i4=
+
+Name: chrome/chromeFiles/content/newwin.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LmWP6E9DNeRluI2TCNQMKw==
+SHA1-Digest: qmbyhT6usv0t6giYWmn8DGDAi8U=
+
+Name: chrome/chromeFiles/content/options.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZQpi2PsI6MaFnnGV6E/mpQ==
+SHA1-Digest: wvubXwjG5/hHXBL/DgOf/4QzwiY=
+
+Name: chrome/chromeFiles/content/sidepanel.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BpFMjbFSc4ArmCGw7o/osg==
+SHA1-Digest: Tyyo4kxDmgOi6hwKGWy3uBk69Zk=
+
+Name: chrome/chromeFiles/locale/bg-BG/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hESPs60ozL4qUzThRvhQKg==
+SHA1-Digest: vKPJLvbM8g4wRWIqptyLxE6Cgfc=
+
+Name: chrome/chromeFiles/locale/bg-BG/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fLs0VNEjkjdPXHqswYHfNg==
+SHA1-Digest: FSs12iPPcLyBgFw+Evm7n+z7Mk4=
+
+Name: chrome/chromeFiles/locale/ca-AD/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fOpCDO0WYJGJKye8IQiUXg==
+SHA1-Digest: V/mfZhCC1UiGRJ8z+ZK5u7fFG+g=
+
+Name: chrome/chromeFiles/locale/ca-AD/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: N895OroCMxHu5LSMGGJppg==
+SHA1-Digest: pd715HCSv8J59nGOqLxNXHGpsdI=
+
+Name: chrome/chromeFiles/locale/cs-CZ/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /Gd8fZaK+Ad4TqaA7sSLew==
+SHA1-Digest: 2awFPCrRBNgaHiGQ2xSoQrCfWec=
+
+Name: chrome/chromeFiles/locale/cs-CZ/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4sZYxhtIk8A5j7mWp4SxbA==
+SHA1-Digest: gYnebVnzJXcNguRPc9kdSyahs30=
+
+Name: chrome/chromeFiles/locale/da-DK/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: H3W1EX74f+vPpby27Kddig==
+SHA1-Digest: mr5fBz+uisEVKEEwC/23weA/Fgk=
+
+Name: chrome/chromeFiles/locale/da-DK/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HKuOAB2usK1asD4zvAsadw==
+SHA1-Digest: vWxrFJk2QdTeSMyP5ZZlIPPR6Js=
+
+Name: chrome/chromeFiles/locale/de-DE/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vrGBJxp4LmjqP08nWt7t6A==
+SHA1-Digest: a4FlD0GfjvwyyFkxP5Z0qW81Iqw=
+
+Name: chrome/chromeFiles/locale/de-DE/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lEikkZZvkIBD16Tt/2+YqA==
+SHA1-Digest: anRpUynXb3mmFMwHUF8jH5fx75o=
+
+Name: chrome/chromeFiles/locale/en-US/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: reWVV2fBPl3MnEMeA9L45g==
+SHA1-Digest: fAyU/8nTvoQ7OsJPwqoNdFkb+EA=
+
+Name: chrome/chromeFiles/locale/en-US/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0K+g5KePN6W6aStsF+c0lQ==
+SHA1-Digest: oH97uEtduYS7KNo9on3KIkQNQ3g=
+
+Name: chrome/chromeFiles/locale/es-ES/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 77XYRgIPAv/T/uZOx5dZxw==
+SHA1-Digest: YwheOljfUdmS5CgHb3kJF8ks8oI=
+
+Name: chrome/chromeFiles/locale/es-ES/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: W0K737IoVhzsYDchLhPeMQ==
+SHA1-Digest: r4YHMAN2PYXEBBHnInu1SyAoCSU=
+
+Name: chrome/chromeFiles/locale/fi-FI/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: diR+cCYEWNQs04koiFiLGg==
+SHA1-Digest: Pfuq9vvhFyzZ9hLGyHixF60NfSM=
+
+Name: chrome/chromeFiles/locale/fi-FI/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TtmpR0oCBBf7v+iLxmZ/uw==
+SHA1-Digest: hgrXR+mag/UHqg0OoJWBU1OzVj8=
+
+Name: chrome/chromeFiles/locale/fr-FR/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IcP1WLOP/mknSTbHiQcWRA==
+SHA1-Digest: C6PnEZKPO23RedGWFTBOL03mRHY=
+
+Name: chrome/chromeFiles/locale/fr-FR/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Zqk+YoC5lwJckOXm4JY7PA==
+SHA1-Digest: TtaANhweYZi/2X1UOvBTidFC9Fg=
+
+Name: chrome/chromeFiles/locale/he-IL/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: x1MH/RYMijTVptW7MJp3Jg==
+SHA1-Digest: CWivedudfcwOX+ae9b+T5HzoGyU=
+
+Name: chrome/chromeFiles/locale/he-IL/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Eww3R6fJOMWmQFZr/CY7Rg==
+SHA1-Digest: LwGMv5cRunIu80ZqNvxeBvrIUH8=
+
+Name: chrome/chromeFiles/locale/hr-HR/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 985ZTbpXUMQcAY8J9SHgOQ==
+SHA1-Digest: MnhARmOo9C7ACEb3B7EhbhXbH4E=
+
+Name: chrome/chromeFiles/locale/hr-HR/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0K+g5KePN6W6aStsF+c0lQ==
+SHA1-Digest: oH97uEtduYS7KNo9on3KIkQNQ3g=
+
+Name: chrome/chromeFiles/locale/hu-HU/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GDohObyV2ONpnaczwLtGWg==
+SHA1-Digest: peX+XrAd8pcVYsaVZ5c/ZquQrHo=
+
+Name: chrome/chromeFiles/locale/hu-HU/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /+S+oQLq86MUam+yGx9lVA==
+SHA1-Digest: 0GbILsSVTgvoEdkhgN2tSqX+V5k=
+
+Name: chrome/chromeFiles/locale/it-IT/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OoFNKGAcJtDRDllcBconNQ==
+SHA1-Digest: LYjeW4I6TugKasYp8bVwIRIRTEI=
+
+Name: chrome/chromeFiles/locale/it-IT/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nhTQ5vNO0H70L2R+rRF9HA==
+SHA1-Digest: scRZgRiVA1ETv3RQHiulOplsxso=
+
+Name: chrome/chromeFiles/locale/ja-JP/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xOrftKEp4szaumQx9sVfdA==
+SHA1-Digest: mIZw3HUbjjpnMwKsBhVT/PCScG8=
+
+Name: chrome/chromeFiles/locale/ja-JP/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: icbVGhYWqwH3v18lAOrkOw==
+SHA1-Digest: q6fSFByUrPogDSM5owLBvNcMFlc=
+
+Name: chrome/chromeFiles/locale/mk-MK/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EL2jD+9DFYfvgQ0zDvkUzw==
+SHA1-Digest: YD4Tv1IID5chTBDppqUwomOcgJk=
+
+Name: chrome/chromeFiles/locale/mk-MK/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jAmMvdBo2INXYPMeADKpIw==
+SHA1-Digest: bq5MVetAH1yN78YoQs8416W99Is=
+
+Name: chrome/chromeFiles/locale/nl-NL/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RW/tOe441DtzSe1YGVlf5A==
+SHA1-Digest: cmTubGNXc14/0FWz7Jcc+Q0QtHw=
+
+Name: chrome/chromeFiles/locale/nl-NL/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5tBtkCsOFE0/J3e8PpCKig==
+SHA1-Digest: GNx3e5+oMJ2MR/SCxZDMfagz0NA=
+
+Name: chrome/chromeFiles/locale/pl-PL/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: W7FFnWvMj4B/utd746FDIw==
+SHA1-Digest: JBUvKyiQ0W6F2htgIG4pVA8Wg8M=
+
+Name: chrome/chromeFiles/locale/pl-PL/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: t+WL5LfoPIxjkNgZyIGtfQ==
+SHA1-Digest: XKw3gvfmS635TK72oYBcWKxmyCk=
+
+Name: chrome/chromeFiles/locale/pt-BR/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DpuCVI8Qjto3jmQrPBb9SQ==
+SHA1-Digest: 82Ikxuu/4UUgqF+I6lHMTXtUP6M=
+
+Name: chrome/chromeFiles/locale/pt-BR/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: n+Aq7aLQ+tz07abWx5HbuQ==
+SHA1-Digest: iVp/uZt8csT0UUTJettCga5LCuc=
+
+Name: chrome/chromeFiles/locale/sv-SE/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1AVMGGTnWsBiKuXtklKPgA==
+SHA1-Digest: SVpWxt3Qm9I904pMDFkU3cZTph4=
+
+Name: chrome/chromeFiles/locale/sv-SE/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0K+g5KePN6W6aStsF+c0lQ==
+SHA1-Digest: oH97uEtduYS7KNo9on3KIkQNQ3g=
+
+Name: chrome/chromeFiles/locale/th-TH/DummyLipsum.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: d6p5WCfQrjtnCVW3lIE5jA==
+SHA1-Digest: y0VtjzvNsUnVe/HpOX62hdRzL+4=
+
+Name: chrome/chromeFiles/locale/th-TH/main.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0K+g5KePN6W6aStsF+c0lQ==
+SHA1-Digest: oH97uEtduYS7KNo9on3KIkQNQ3g=
+
+Name: chrome/chromeFiles/skin/dummylipsum.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SAkNXWhL3AOvDKkBzWXj6Q==
+SHA1-Digest: CenVA4E4N+WLEoGdrgjnS9Q9dx4=
+
+Name: chrome/chromeFiles/skin/icon_large.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1dguyC56qS7XiFXkYIHGZw==
+SHA1-Digest: svnfVq9kzDyxrHqfQli1VdQ+COI=
+
+Name: chrome/chromeFiles/skin/icon_list.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /Y4Ydj3oLO7B9u3B9IOPZA==
+SHA1-Digest: zp4YG32HyDIDJQTLFXJncdXxEOs=
+
+Name: chrome/chromeFiles/skin/icon_small.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iLiH9VerQZyou/h7aIJRbg==
+SHA1-Digest: KDy7arJlQrDC9sim0UfH1vMi7BQ=
+
+Name: defaults/preferences/dummylipsum.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JhFEQ/OHG8+ytMkK8M5WHA==
+SHA1-Digest: tsShFpE5xDUGR3vIURF6m4EpM5E=
+
+Name: license.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0yI5vLZzRjq4dOgNR/rlBA==
+SHA1-Digest: hiS82uVbru8AzRHV38+mD2hxCgI=
+
